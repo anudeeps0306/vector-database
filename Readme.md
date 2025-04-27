@@ -1,4 +1,3 @@
-```markdown
 # VectorShard - A Simple Vector Database
 
 VectorShard is a lightweight vector database built in Java using Spring Boot and Maven. It supports storing, retrieving, deleting, and searching vectors derived from text statements. The vectors are generated using a Discrete Fourier Transform (DFT)-based embedding of input text, providing a simple yet effective way to convert text into fixed-length numeric vectors.
@@ -40,7 +39,6 @@ The embedding service converts a text statement into a 10-dimensional vector by 
   - `200 OK` on success with message `"Vector added/updated from statement"`.
   - `400 Bad Request` if input is invalid.
 
----
 
 ### 2. Get Vector by ID
 
